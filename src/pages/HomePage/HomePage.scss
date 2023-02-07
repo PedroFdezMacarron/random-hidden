@@ -1,0 +1,79 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(81, 141, 81);
+  padding-bottom: 50px;
+  height: 80vh;
+}
+
+.players_list {
+  margin-top: 50px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+  gap: 10px;
+
+  &-item {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+
+  &-title {
+    color: white;
+    font-size: 30px;
+    background-color: rgb(111, 177, 111);
+    border: 3px solid rgb(0, 62, 0);
+    border-radius: 10px;
+    padding: 10px;
+    width: 300px;
+    margin-right: 40px;
+  }
+  &-amount {
+    color: white;
+    font-weight: 700;
+    width: 50px;
+    text-align: center;
+  }
+  &-btn {
+    font-size: 40px;
+    font-weight: 700;
+    border-radius: 10px;
+    width: 50px;
+  }
+}
+
+.forms {
+  margin-top: 50px;
+  display: flex;
+  gap: 20px;
+  &__name {
+    color: white;
+    font-size: 30px;
+    background-color: rgb(111, 177, 111);
+    border: 3px solid rgb(0, 62, 0);
+    border-radius: 10px;
+    padding: 10px;
+    width: 300px;
+  }
+
+  &__btn {
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 700;
+    border-radius: 10px;
+    border: 3px solid;
+    color: white;
+    background-color: grey;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.random__start{    
+    margin-top: 50px;
+}
